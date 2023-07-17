@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'stint', sans-serif;
+    background-color:aqua;
+    opacity:2.5;
+}
+
+section.header{
+    background-color:darkblue;
+    color:black;
+}
+section.header div.container{
+    height:350px;
+    text-align:center;
+    color:black;
+
+}
+div.container h1{
+    font-size:50px;
+    margin-top:70px;
+}
+
+div.container a.home{
+    text-decoration:none;
+    color:lightsalmon;
+    font-size:25px;
+}
+
+section.header div.container span.message{
+    font-size:25px;
+}
+
+section.social  div.container div.image, section.social div.container  div.matter{
+    width:50%;
+    float:left;
+    font-size:25px;
+}
+
+div.about-container::after{
+    display:block;
+    clear:both;
+    content:"";
+}
+
+div.container div.matter{
+    padding:150px;
+    margin-top:70px;
+    text-align:left;
+    font-size:50px;
+}
